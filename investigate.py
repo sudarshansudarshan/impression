@@ -28,9 +28,6 @@ G2.remove_edges_from(nx.selfloop_edges(G2))
 G1.remove_node('')
 G2.remove_node('')
 
-
-
-k
 #display the common edges across G1 and G2
 common_edges = G1.edges() & G2.edges()
 print('Common edges:', common_edges)
